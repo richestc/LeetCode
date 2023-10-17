@@ -28,6 +28,10 @@ public:
         sort( permutations.begin(), permutations.end() );
         permutations.erase( unique( permutations.begin(), permutations.end() ), permutations.end() );
         
-        return permutations.size();
+        int res = permutations.size();
+        permutations.clear();
+        
+        
+        return res;
     }
 };
