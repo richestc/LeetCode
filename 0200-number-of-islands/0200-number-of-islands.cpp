@@ -18,7 +18,7 @@ private:
             recursion( grid, i, j-1 );
         }
         
-        return;
+        //return;
     }
         
 public:
